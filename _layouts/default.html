@@ -1,24 +1,22 @@
 <html>
 <head>
 	<title>Blender Realistic | Blender Tutorials</title>
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
 </head>
 <body>
 
     <header>
         <h1>Blender Realistic</h1>
-    	<nav>
-    		<ul>
-    			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-    			<li><a href="{{site.baseurl}}/Tutorial.html">Tutorial</a></li>
-    			<li><a href="#">About</a></li>
-    			<li><a href="#">Blends</a></li>
-    			<li><a href="#">Contact</a></li>
-    		</ul>
-    	</nav>
+        {% include nav.html navclass='nav-top' %}
     </header>
 
 
     {{content}}
+
+    <footer>
+        {% include nav.html navclass='nav-bottom' %}
+    	<p>Copyright Blender Realistic 2015</p>
+    </footer>
 
 </body>
 </html>    
