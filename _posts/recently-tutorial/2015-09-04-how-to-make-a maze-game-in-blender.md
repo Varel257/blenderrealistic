@@ -2,7 +2,7 @@
 layout: Tutorial
 meta: this is the part of the how to make a menu
 source:
-category: tutorial
+category: recently-tutorial
 ---
 
 #how to make a maze game in blender
