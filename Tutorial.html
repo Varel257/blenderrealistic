@@ -1,1 +1,15 @@
-/home/varel/Tutorial.html
+---
+layout: default
+---
+
+
+<h1>Tutorials</h1>
+
+<ul>
+    {% for tutorial in site.categories.tutorial %}
+	<li>
+		<a href="">{{tutorial.title}}</a>
+		<p>{{tutorial.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
