@@ -2,4 +2,14 @@
 layout: default
 ---
 
+
 <h1>Tutorials</h1>
+
+<ul>
+    {% for tutorial in site.posts %}
+	<li>
+		<a href="">{{tutorial.title}}</a>
+		<p>{{tutorial.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
