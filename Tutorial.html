@@ -8,7 +8,7 @@ layout: default
 <ul class="tutorial">
     {% for tutorial in site.categories.tutorial %}
 	<li>
-		<a href="{{tutorial.url}}">{{tutorial.title}}</a>
+		<a href="{{tutorial.url | prepend: baseurl}}">{{tutorial.title}}</a>
 		<p>{{tutorial.meta}}</p>
 	</li>
 	{% endfor %}
