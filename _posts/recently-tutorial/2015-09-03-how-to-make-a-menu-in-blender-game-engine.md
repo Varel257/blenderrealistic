@@ -1,5 +1,5 @@
 ---
-layout: Tutorial
+layout: default
 meta: this is part 1 of how to make a maze game in blender.
 source:
 category: recently-tutorial

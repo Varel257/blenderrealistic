@@ -1,5 +1,5 @@
 ---
-layout: Tutorial
+layout: default
 title: How to Make a Glare / Lens flare
 meta: i will going to show to how to make a glare/lens flare in blender.
 source:

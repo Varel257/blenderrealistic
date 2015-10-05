@@ -3,13 +3,14 @@ layout: default
 ---
 
 
-<h1>Tutorials</h1>
+<h1 class="h1">Tutorials</h1>
 
-<ul>
+<ul class="tutorial">
     {% for tutorial in site.categories.tutorial %}
 	<li>
-		<a href="">{{tutorial.title}}</a>
+		<a href="{{tutorial.url}}">{{tutorial.title}}</a>
 		<p>{{tutorial.meta}}</p>
 	</li>
 	{% endfor %}
 </ul>
+

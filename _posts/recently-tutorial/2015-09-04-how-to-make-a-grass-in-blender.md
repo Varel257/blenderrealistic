@@ -1,5 +1,5 @@
 ---
-layout: Tutorial
+layout: default
 meta: today i will show you how to make a grass
 source:
 category: recently-tutorial

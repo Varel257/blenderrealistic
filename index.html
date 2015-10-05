@@ -2,27 +2,15 @@
 layout: default
 ---
 
-<img src="img/splash.png" height="385" width="1335">
+<img class="slide" src="img/splash.png" height="385" width="1335">
 
-<ul>
-    {% for tutorial in site.categories.recently-tutorial limit:3 %}
+<h1 class="h1">Recent Post</h1>
+
+<ul class="tutorial">
+    {% for tutorial in site.categories.recently-tutorial %}
 	<li>
-		<a href="">{{tutorial.title}}</a>
+		<a href="{{tutorial.url}}">{{tutorial.title}}</a>
 		<p>{{tutorial.meta}}</p>
 	</li>
 	{% endfor %}
 </ul>
-
-<div class="link">
-	<a href="www.github.com/Varel257/">
-		<img src="img/github.png" width="225" height="225">
-	</a>
-
-	<a href="www.github.com/Varel257">
-		<img src="img/google_plus_icon.png" width="190" height="190">
-	</a>
-
-	<a href="www.facebook.com/varel.irvan.9/">
-		<img src="img/index.jpeg">
-	</a>
-</div>

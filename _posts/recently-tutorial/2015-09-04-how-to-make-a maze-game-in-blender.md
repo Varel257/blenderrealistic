@@ -1,5 +1,5 @@
 ---
-layout: Tutorial
+layout: default
 meta: this is the part of the how to make a menu
 source:
 category: recently-tutorial
