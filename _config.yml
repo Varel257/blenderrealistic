@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /blenderrealistic
+url: http://varel257.github.io
 exclude: ['README.md']
