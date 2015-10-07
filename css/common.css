@@ -114,3 +114,9 @@ footer{
     padding: 10px;
     text-transform: uppercase;
 }
+
+.C{
+    text-align: right;
+    background-color: #F2F2F2;
+    margin-top: 10px;
+}
